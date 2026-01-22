@@ -8,18 +8,23 @@ Summary
 The strategy is backtested on U.S. large-cap equities from 2018 to 2024 and compared against:
   Equal-weight portfolio
   Return-only optimization baseline
+
+
 Data
   Equity prices and volume from yfinance
   Market indicators: S&P 500 (^GSPC) and VIX (^VIX)
   14 large-cap U.S. stocks across multiple sectors
+  
 Features
   Short- and medium-term returns and momentum
   Rolling volatility
   RSI
   Volume trends
   Market context (SP500 returns, VIX)
+  
 Evaluation
   Performance is measured using cumulative returns, Sharpe ratio, and drawdown. Results are visualized and saved as portfolio_performance.png.
+  
 Dependencies
   yfinance, numpy, pandas, cvxpy, scikit-learn, matplotlib
 
